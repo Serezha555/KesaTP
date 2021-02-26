@@ -7,3 +7,4 @@ This is a temporary script file.
 
 print("Приветусики")
 print("Я Серёжа")
+print("Кеса")
