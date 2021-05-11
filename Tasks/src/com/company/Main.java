@@ -1,7 +1,6 @@
 package com.company;
 
-import java.util.Arrays;
-import java.util.Locale;
+import java.util.*;
 
 public class Main {
 
@@ -43,15 +42,37 @@ public class Main {
 // 30_40
         System.out.println("4.1 = " + Task30_40.sevenBoom(new int[] {1, 2, 3, 4, 5, 6, 97}));
         System.out.println("4.2 = " + Task30_40.cons (new int[] {5, 6, 7, 8, 9, 13}));
-        System.out.println("4.3 = " + Task30_40.unmix("hTsii s aimex dpus rtni.g"));
+        System.out.println("4.3 = " + Task30_40.unmix("123456"));
         System.out.println("4.4 = " + Task30_40.noYelling("Oh my goodness!!!"));
-// System.out.println("4.5 = " + Task30_40.xPronounce("OMG x box unboxing video x D") );
+        System.out.println("4.5 = " + Task30_40.xPronounce("OMG x box unboxing video x D") );
         System.out.println("4.6 = " + Task30_40.largestGap(new int[] {9, 4, 26, 26, 0, 0, 5, 20, 6, 25, 5}));
         System.out.println("4.7 = " + Task30_40.raznitsa(832));
         System.out.println("4.8 = " + Task30_40.commonLastVowel("Watch the characters dance!"));
         System.out.println("4.9 = " + Task30_40.memeSum(26, 39));
         System.out.println("4.10 = " + Task30_40.unrepeated("hello"));
 // 40_50
+        System.out.println("5.1 = " + Task40_50.sameLetterPattern("ABAB", "CDCD"));
+        System.out.println("5.2 = " + Task40_50.spiderVsFly("H3", "E2"));
+        System.out.println("5.3 = " + Task40_50.digitsCount(4666));
+        System.out.println("5.4 = " + Task40_50.totalPoints(new String[] {"trance", "recant"}, "recant"));
+        System.out.println("5.5 = " + Task40_50.longestRun(new int[] {1, 2, 3, 10, 11, 15}));
+        System.out.println("5.6 = " + Task40_50.takeDownAverage(new String[] {"95%", "83%", "90%", "87%", "88%", "93%"}));
+        System.out.println("5.7 = " + Task40_50.rearrange("Tesh3 th5e 1I lov2e way6 she7 j4ust i8s."));
+        System.out.println("5.8 = " + Task40_50.maxPossible(523, 76));
+        System.out.println("5.9 = " + Task40_50.timeDifference("Los Angeles", "April 1, 2011 23:23", "Canberra"));
+        System.out.println("5.10 = " + Task40_50.isNew(3));
 // 50_60
+        System.out.println("6.1 = " + Task50_60.hiddenAnagram("My world evolves in a beautiful space called Tesh.",
+                "sworn love lived"));
+        System.out.println("6.2 = " + Arrays.toString(Task50_60.collect("intercontinentalisationalism", 6)));
+        System.out.println("6.3 = " + Task50_60.nicoCipher("myworldevolvesinhers", "tesh"));
+        System.out.println("6.4 = " + Arrays.toString(Task50_60.twoProduct(new int[]{1, 2, 3, 9, 4, 15, 3, 5}, 45)));
+        System.out.println("6.5 = " + Arrays.toString(Task50_60.isExact(6)));
+        System.out.println("6.6 = " + Task50_60.fractions("0.(6)"));
+        System.out.println("6.7 = " + Task50_60.pilish_string("33314444"));
+        System.out.println("6.8 = " + Task50_60.generateNonconsecutive(1));
+        System.out.println("6.9 = " + Task50_60.isValid("aabbcd"));
+        int[] var10000 = new int[]{1, 6, 5, 4, 8, 2, 3, 7};
+        System.out.println("6.10 = " + Arrays.deepToString(Task50_60.sumsUp(var10000)));
     }
 }
